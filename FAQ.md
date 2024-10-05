@@ -66,7 +66,7 @@ This is probably due to the [classifier reborn](https://github.com/jekyll/classi
 
 Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
 
----
+--- 
 
 ### When I manually run the [Lighthouse Badger](https://github.com/alshedivat/al-folio/actions/workflows/lighthouse-badger.yml) workflow, it fails with `Error: Input required and not supplied: token`. How do I fix that?
 
