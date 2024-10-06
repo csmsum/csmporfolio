@@ -6,15 +6,15 @@ subtitle: <a href='#'>Stony Brook University</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>631 590 9705</p>
-    <p>700 Health Science</p>
+    <p>700 Health Sciences Dr</p>
     <p>Stonybrook, New York 11790</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
