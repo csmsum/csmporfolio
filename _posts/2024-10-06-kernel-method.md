@@ -7,6 +7,7 @@ tags: Kernel Method
 categories: kernel method
 related_posts: false
 ---
+{% raw %}
 
 # Kernel Based Learning
 This post deals with kernel based learning that are largely used nowadays in many neural network models, starting from maximal margin classifier through support vector classifier/machine to how they are employed in feature maps in neural networks.
@@ -17,7 +18,7 @@ Support vector machine (SVM) was developed in 1990s. It is originally from 'maxi
 
 ### Separating Hyperplane (Maximal Margin Classifier)
 
-Suppose a $p$-dimensional space, a hyperplane is a flat affine subspace of dimension $p-1$.
+Suppose a \( p \)-dimensional space, a hyperplane is a flat affine subspace of dimension \( p-1 \).
 
 For example, in two dimensions, a hyperplane is defined by the equation
 $$
@@ -28,7 +29,8 @@ $$
 \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \beta_nX_n = 0
 $$
 
-Suppose there exists a point $x_i \in \mathbb{R}^p$ , i.e. $x_i = (x_1, x_2, \cdots, x_n)$  then the hyperplane divides the $p$-dimensional space into two halves s.t.
+Suppose there exists a point $ x_i \in \mathbb{R}^p $ , i.e. $ x_i = (x_1, x_2, \cdots, x_n) $  then the hyperplane divides the $p$-dimensional space into two halves s.t.
+
 $$
 \begin{aligned}
 \text{(1) : } \beta_0 + \beta_1x_1 + \beta_2x_2 + \cdots + \beta_nx_n > 0 \\\
@@ -45,7 +47,6 @@ $$
 
 
 ### How to decide classifier with Lagrange Multiplier
-
 
 
 Alright, now let's say that we have an observation $x^\ast$ Also, let $f(x^\ast)=\beta_0 + \beta_1x^\ast_1 + \beta_2x^\ast_2 + \cdots + \beta_nx^\ast_n$. Then we can assign $x^\ast$ into class 1 or to class -1. That is,
@@ -123,3 +124,5 @@ To be updated
 
 ### Acknowledges
 I would like to express my sincere gratitude to Professor [Wonkuk Kim](https://sites.google.com/view/wonkukkim/home) at Chung-Ang University, as this post is largely based on insights gained from his Data Mining class.
+
+{% endraw %}
