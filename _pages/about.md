@@ -6,7 +6,7 @@ subtitle: <a href='#'>Stony Brook University</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>631 590 9705</p>
