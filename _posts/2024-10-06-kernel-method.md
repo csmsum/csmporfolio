@@ -96,6 +96,7 @@ $$
 $$
 
 The partial derivatives:
+
 $$
 \begin{aligned}
 &\frac{\partial\mathcal{L}}{\partial\mathbf{w}} = \mathbf{w} +\sum_{i=1}^{n}\alpha_i(-y_i)(\mathbf{x_i})  =0 \implies \mathbf{w} = \sum_{i=1}^{n}\alpha_i y_i \mathbf{x}_i\\ 
@@ -163,6 +164,7 @@ $$
 $$
 
 The following conditions are called Karush-Kuhn-Tucker (KKT) conditions.
+
 $$
 \begin{aligned}
 \alpha_i\left[1-\xi_i-y_i(\mathbf{w^T x_i} + b)\right] = 0 \\ 
@@ -199,6 +201,7 @@ The Kernel Method appears in that regards.
 
 ### Brief Conclusion
 We can show that the support vector classifier can be written as:
+
 $$
 \begin{aligned}
 f(x) &= \sum_{i=1}^n\alpha_iy_i<\mathbf{x,x_i}> + b \\ 
@@ -207,6 +210,7 @@ f(x) &= \sum_{i=1}^n\alpha_iy_i<\mathbf{x,x_i}> + b \\
 $$
 
 Let $\phi$ a $\mathbb{R}^p\rightarrow \mathbb{R}^M$ ($\mathbb{R}^p\rightarrow \mathcal{H}$ to be precise) function such that $\phi(\mathbf{x})=(\phi_1(\mathbf{x}),\cdots,\phi_M(\mathbf{x}))$  that moves each datapoint into (possibly high-dimensional) feature space. The inner product of such space will be
+
 
 $$
 \begin{aligned}
@@ -217,7 +221,7 @@ $$
 
 So if we find adequate $\phi$ where the feature maps' inner product is can be expressed as the original data's inner product, it is equivalent to calculating on higher ($M$ in this case) dimension, but maintaining the calculation simple.
 
-**EXAMPLES FOR KERNELS TO BE UPDATED**
+**EXAMPLES and MORE EXPLANATIONS FOR KERNELS TO BE UPDATED**
 
 ### Acknowledges
 I would like to express my sincere gratitude to Professor [Wonkuk Kim](https://sites.google.com/view/wonkukkim/home) at Chung-Ang University, as this post is largely based on  insights gained from his Data Mining class.
